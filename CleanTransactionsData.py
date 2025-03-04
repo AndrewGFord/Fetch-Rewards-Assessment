@@ -11,6 +11,7 @@ INPUT_FILENAME = 'TRANSACTION_TAKEHOME.csv'
 transactions = pd.read_csv(INPUT_FILENAME)
 num_rows = transactions.shape[0]
 
+# function to check a single row for the data problems noted above and fix it
 def transform_row(r):
 	if r['FINAL_QUANTITY'] == 'zero':
 		r['FINAL_QUANTITY'] = 0.0
