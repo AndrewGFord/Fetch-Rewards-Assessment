@@ -8,6 +8,9 @@ The plots included in the write-up are also included in the folder "Data Explora
 
 ## Part 2: Provide SQL queries
 
+In order to import the data in the transaction file to SQL, I wrote a Python script, found in "CleanTransactionsData.py", to clean the non-numeric values from two columns.
+The output of this Python script is found in "TRANSACTION\_CLEAN.csv".
+
 I answered the following three questions:
 1. "What are the top 5 brands by receipts scanned among users 21 and over?"
 2. "What is the percentage of sales in the Health & Wellness category by generation?"
